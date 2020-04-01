@@ -1,0 +1,58 @@
+/* Global */
+
+$color-main: #48dbfb;
+*, *::before, *::after {
+	box-sizing: border-box;	
+}
+$font-text: 'Noto Sans', sans-serif;
+$font-header: 'Trade Winds', cursive;
+
+
+
+body {
+    margin: 30px;
+    text-align: left;
+    background: #48dbfb;
+    color: #3d3d3d;
+    font-size: 16px;
+    line-height: 1.2;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 20px;
+    padding: 20px;       
+}
+
+.page-title{
+    position: relative;
+    font-size: 38px;
+    margin: 5px;
+    font-family: 'Trade Winds', cursive;
+}
+
+.page-subtitle{
+    position: relative;
+    font-size: 28px;
+    margin: 5px;
+    padding: 20px;
+    
+    font-family: 'Trade Winds', cursive;
+}
+
+/*text*/
+.container-text {
+    position: relative;
+    margin: 10px;
+    padding: 20px;
+}
+
+.page-footer {
+    background: #2980b9;
+    color: #fff;
+}
+
+
+
+    
